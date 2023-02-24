@@ -1,0 +1,18 @@
+.episode-list{
+    text-align:center;
+}
+
+.userList-user_card{
+    text-align:start;
+}
+
+.userList-user_card h4{
+    margin:0;
+}
+
+.episode-searchBar{
+    height: 3rem;
+    border: 1px solid #6BDCFC;
+    position: relative;
+    border-radius: 3px;
+}

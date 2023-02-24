@@ -1,0 +1,80 @@
+.character_details {
+    border: 2px solid #6bdcfc;
+    /* margin: 3rem; */
+    border-radius: 14px;
+    border-bottom: 5px solid #6bdcfc;
+    border-right: 5px solid #6bdcfc;
+    display:flex;
+    margin-bottom:1rem;
+}
+
+.main_details {
+  border: 2px solid #6bdcfc;
+  /* margin: 3rem; */
+  border-radius: 14px;
+  border-bottom: 5px solid #6bdcfc;
+  border-right: 5px solid #6bdcfc;
+}
+.left_side {
+  display: flex;
+}
+
+.image img {
+  width: 27rem;
+  margin: 1rem;
+  border-radius: 11px;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.episode_section {
+  width: -webkit-fill-available;
+  height: 15.2rem;
+  overflow-y: scroll;
+  background: #eef7f9;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.each_episode {
+  width: fit-content;
+  padding: 6px;
+  background: white;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 13px;
+  border: 1px solid #6bdcfc;
+  margin-top:5px;
+  height: 2.2rem;
+  cursor:pointer;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.right_side {
+  width:100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #6bdcfc;
+    border-radius: 10px;
+  }

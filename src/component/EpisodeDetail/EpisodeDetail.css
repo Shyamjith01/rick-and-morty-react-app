@@ -1,0 +1,41 @@
+.episode_details{
+    border: 2px solid #6bdcfc;
+    /* margin: 3rem; */
+    border-radius: 14px;
+    border-bottom: 5px solid #6bdcfc;
+    border-right: 5px solid #6bdcfc;
+    display:flex;
+    margin-bottom:1rem;
+    margin-top:2rem;
+    padding:2rem;
+}
+
+.episode_detail{
+    text-align:center;
+}
+
+.character_section{
+    width: -webkit-fill-available;
+    height: auto;
+    overflow-y: scroll;
+    background: #eef7f9;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.each_character{
+    width: fit-content;
+    padding: 6px;
+    background: white;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 13px;
+    border: 1px solid #6bdcfc;
+    margin-top:5px;
+    height: 2.2rem;
+    cursor:pointer;
+}
